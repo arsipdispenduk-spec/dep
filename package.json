@@ -1,0 +1,27 @@
+{
+ "name": "ai-motion-studio",
+ "private": true,
+ "type": "module",
+ "scripts": {
+  "dev": "vite",
+  "build": "tsc --noEmit && vite build",
+  "preview": "vite preview"
+ },
+ "dependencies": {
+  "react": "18.3.1",
+  "react-dom": "18.3.1",
+  "gsap": "3.12.5",
+  "@ffmpeg/ffmpeg": "0.12.10",
+  "@ffmpeg/util": "0.12.1",
+  "mammoth": "1.8.0",
+  "pdfjs-dist": "4.4.168"
+ },
+ "devDependencies": {
+  "@types/react": "18.3.3",
+  "@types/react-dom": "18.3.0",
+  "@vitejs/plugin-react": "4.3.1",
+  "typescript": "5.5.4",
+  "vite": "5.4.2",
+  "@netlify/functions": "2.8.1"
+ }
+}
